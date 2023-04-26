@@ -1,0 +1,4 @@
+A neural net that predicts hyperlocal weather based on local enviromental data and forecasted data from multiple
+sorces. 
+
+Tags Python, AI, Nerual Networks
