@@ -37,13 +37,10 @@ def genfake():
         #general noise
     df = pandas.read_csv("sc1.csv")
     #df.loc[row_indexer,column_indexer]
-    templist = []
-    for i in range():
-       temp = float(df.loc[i,"temp"])
-       temp = temp + random.uniform(0.5,-0.5)
-       temp = temp + 3.5
-       templist.append(round(temp,1))
-    print(templist)
+
+    for label, content in df.items():
+        print(content[1])
+
 
 
        
